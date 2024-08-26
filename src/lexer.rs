@@ -1,7 +1,7 @@
 #[warn(dead_code)]
 
 use std::error::Error;
-use std::fmt::{write, Display};
+use std::fmt::Display;
 #[derive(Debug)]
 pub struct LexerError {
     pub ch:char,
